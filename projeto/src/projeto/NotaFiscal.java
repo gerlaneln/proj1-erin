@@ -61,4 +61,8 @@ public class NotaFiscal {
     public void setCnpj(int cnpj) {
         this.cnpj = cnpj;
     }
+    
+    public Integer getCoisa(){
+        return numero;
+    }
 }
